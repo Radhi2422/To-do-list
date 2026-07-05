@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Todo List</h1>
+    <input
+        id="taskTitle"
+        type="text"
+        placeholder="Enter task">
+    <button id="addBtn">
+        Add Task
+    </button>
+    <hr>
+    <ul id="taskList">
+    </ul>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
+
+<!-- 
+Application state: Instead of storing everything in the DOM, maintain a javascript object as the source of truth.
+const state={
+    tasks:[],
+    filter:"all",
+    search:"",
+    sort:"latest"
+}
+
+All UI updates should be based on this state.
+
+-->
