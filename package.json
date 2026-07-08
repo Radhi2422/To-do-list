@@ -10,7 +10,6 @@
     "lint": "eslint js/**/*.js"
   },
   "devDependencies": {
-    "eslint": "^9.0.0",
     "jest": "^30.0.0",
     "prettier": "^3.0.0"
   }
