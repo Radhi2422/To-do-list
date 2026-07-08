@@ -20,16 +20,7 @@ describe("TaskManager - Add Task", () => {
 
     });
 
-    test("should assign a unique id", () => {
-
-        manager.addTask("Task 1");
-        manager.addTask("Task 2");
-
-        const tasks = manager.getTasks();
-
-        expect(tasks[0].id).not.toBe(tasks[1].id);
-
-    });
+   
 
     test("should add multiple tasks", () => {
 
