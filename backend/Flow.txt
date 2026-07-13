@@ -1,0 +1,63 @@
+live-coding-platform/
+
+backend/
+│
+├── src/
+│   ├── config/
+│   │      db.js
+│   │
+│   ├── controllers/
+│   │      authController.js
+│   │      problemController.js
+│   │      submissionController.js
+│   │
+│   ├── services/
+│   │      problemService.js
+│   │      submissionService.js
+│   │      javaExecutor.js
+│   │
+│   ├── models/
+│   │      Problem.js
+│   │      Submission.js
+│   │      User.js
+│   │
+│   ├── routes/
+│   │      problemRoutes.js
+│   │      submissionRoutes.js
+│   │
+│   ├── middleware/
+│   │      authMiddleware.js
+│   │
+│   ├── utils/
+│   │      response.js
+│   │
+│   ├── temp/
+│   │      (Generated Java files)
+│   │
+│   ├── app.js
+│   └── server.js
+│
+└── package.json
+
+
+frontend/
+
+src/
+│
+├── api/
+│      axios.js
+│      problemApi.js
+│      submissionApi.js
+│
+├── components/
+│      Navbar.jsx
+│      Editor.jsx
+│      ProblemCard.jsx
+│      TestCaseResult.jsx
+│
+├── pages/
+│      Dashboard.jsx
+│      ProblemPage.jsx
+│
+├── App.jsx
+└── main.jsx
